@@ -30,3 +30,10 @@ The Memoire Game is a fun and interactive memory game where players match pairs 
 1. Clone or download this repository.
 2. Open the `index.html` file in your browser.
 3. Enjoy the game!
+
+## How it works?
+- Simple HTML makes up the bones of the entire project. 
+- game.html contains a Div which acts as the game board, containing 16 cards (8 pairs) of emojies
+- CSS (styles.css) allows for the animated background, the buttons to animate when hovered, and the cards to appear on the website (without which, they wouldnt show), and to flip the cards before hand, so the cards dont show any of it's data to the player before being clicked on
+- Using script.js, we can put in the logic of that once a card is clicked, it is to be flipped, and be comapared with another flipped card. Along with taking measures to prevent any bugs which may appear during a game
+- Script.js also allows for Sound effects (Found in /sounds) to be played, change the color of matched cards, and outputting a Win message
